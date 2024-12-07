@@ -3,7 +3,8 @@ import { INestApplication } from "@nestjs/common";
 import * as request from "supertest";
 import { AppModule } from "../../app.module";
 import { TasksService } from "../tasks.service";
-import { TaskStatus } from "../task.model";
+import { TaskStatus } from "../enums/task-status.enum";
+
 
 describe("TasksModule (e2e)", () => {
   let app: INestApplication;
