@@ -1,8 +1,4 @@
-export enum TaskStatus {
-  PENDING = "pending",
-  IN_PROGRESS = "in_progress",
-  COMPLETED = "completed",
-}
+import { TaskStatus } from "./enums/task-status.enum";
 
 export interface Task {
   id?: string;

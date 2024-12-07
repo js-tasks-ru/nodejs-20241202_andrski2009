@@ -7,4 +7,4 @@ export default function sum(a, b) {
   return [...arguments].reduce((prev, i) => prev += i, 0);
 }
 
-console.log('RES', sum(1, 2));
+console.log(sum(1, 2));
